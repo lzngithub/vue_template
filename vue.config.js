@@ -143,7 +143,7 @@ module.exports = {
 
         hotOnly: false,
 
-        proxy: '0.0.0.0',
+        proxy: '',
 
         before: app => {
         }

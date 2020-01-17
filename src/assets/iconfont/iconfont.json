@@ -1,0 +1,16 @@
+{
+  "id": "1611763",
+  "name": "demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "deom-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12478334",
+      "name": "Badminton",
+      "font_class": "Badminton",
+      "unicode": "e957",
+      "unicode_decimal": 59735
+    }
+  ]
+}

@@ -9,6 +9,10 @@
 export default {
   name: 'home',
   components: {
+  },
+  mounted(){
+    // eslint-disable-next-line no-console
+    console.log(this.$store.state.home.pageSize);
   }
 }
 </script>
