@@ -7,24 +7,22 @@
 </template>
 
 <script>
-
 export default {
-  name: 'toBar',
-  components: {
-  },
-  methods:{
-    changeRouter(params){
+  name: "toBar",
+  components: {},
+  methods: {
+    changeRouter(params) {
       this.$router.push({
-        name:params
+        name: params
       });
     }
   }
-}
+};
 </script>
 
 <style lang='less' scoped>
-.button-style{
-  padding:5px 20px;
-  margin:10px;
+.button-style {
+  padding: 5px 20px;
+  margin: 10px;
 }
 </style>
