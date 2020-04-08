@@ -2,9 +2,10 @@
   <div id="user">
     <Row>
       <Col span="4"  v-for="(item,index) in nav" :key="index">
-        <Button>{{item.babel}}</Button>
+        <Button @click="setRouter(item.name)">{{item.babel}}</Button>
       </Col>
     </Row>
+    <router-view />
   </div>
 </template>
 
@@ -15,10 +16,18 @@ export default {
   data() {
     return {
       nav,
+      isTrue: false,
     };
   },
   created() {
     console.log(this.nav);
+  },
+  methods: {
+    setRouter(params) {
+      this.$router.push({
+        name: params,
+      });
+    },
   },
 };
 </script>

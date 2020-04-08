@@ -1,18 +1,9 @@
 const nav = [{
-  name: 1,
-  babel: 1,
+  name: 'detail',
+  babel: 'detail',
 }, {
-  name: 2,
-  babel: 2,
-}, {
-  name: 3,
-  babel: 3,
-}, {
-  name: 4,
-  babel: 4,
-}, {
-  name: 5,
-  babel: 5,
+  name: 'design',
+  babel: 'design',
 }];
 
 export default nav;

@@ -1,13 +1,13 @@
 <template>
-  <div id="">
-
+  <div id="design">
+    design
   </div>
 </template>
 
 <script>
 
 export default {
-  name: '',
+  name: 'design',
   components: {
   },
 };

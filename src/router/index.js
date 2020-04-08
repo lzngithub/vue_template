@@ -2,7 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/page/home/index.vue';
 import Login from '@/page/login/index.vue';
-// import User from '@/page/user/index.vue';
+import User from '@/page/user/index.vue';
+import userRouter from './data/userRouter';
 Vue.use(Router);
 
 const router = new Router({
@@ -19,7 +20,10 @@ const router = new Router({
   }, {
     path: '/user',
     name: 'user',
-    component: () => import(/* webpackChunkName: "userIndex" */'@page/user/index.vue'),
+    component: User,
+    children: [
+      ...userRouter,
+    ],
   },
   ],
 });

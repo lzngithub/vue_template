@@ -10,11 +10,11 @@ export default {
   name: 'home',
   components: {
   },
-  mounted(){
+  mounted() {
     // eslint-disable-next-line no-console
     console.log(this.$store.state.home.pageSize);
-  }
-}
+  },
+};
 </script>
 
 <style lang='less' scoped>
