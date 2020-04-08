@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import topBar from "@/page/topBar/index"
+import topBar from '@/page/topBar/index';
 export default {
   name: 'app',
   components: {
-    topBar
-  }
-}
+    topBar,
+  },
+};
 </script>
 
 <style>

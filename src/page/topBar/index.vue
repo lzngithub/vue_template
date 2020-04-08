@@ -2,6 +2,7 @@
   <div id="content">
     <button class="button-style" @click="changeRouter('login')">login</button>
     <button class="button-style" @click="changeRouter('home')">home</button>
+    <button class="button-style" @click="changeRouter('user')">user</button>
     <i class="icon iconfont deom-Badminton">&#xe957;</i>
   </div>
 </template>

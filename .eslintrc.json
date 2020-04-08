@@ -21,6 +21,7 @@
   "rules": {
     "linebreak-style": [0 ,"error", "windows"],
     "no-trailing-spaces": "error",
-    "semi-spacing": 1
+    "semi-spacing": 1,
+    "vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]
   }
 }

@@ -1,5 +1,6 @@
+/* eslint-disable require-jsdoc */
+/* eslint-disable max-len */
 const path = require('path');
-
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
