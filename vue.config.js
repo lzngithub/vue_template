@@ -10,9 +10,11 @@ module.exports = {
     '/demo/' :
     '/',
 
-  outputDir: 'demo',
+  outputDir: 'demo', // 输出目录，默认dist
 
-  assetsDir: 'static',
+  assetsDir: 'static', // 静态资源文件夹名字
+
+  indexPath: 'index.html', // html的输出路径
 
   filenameHashing: true,
 
@@ -145,7 +147,7 @@ module.exports = {
 
     hotOnly: false,
 
-    proxy: '',
+    proxy: 'http://10.167.213.134:8000',
 
     before: (app) => {
     },
