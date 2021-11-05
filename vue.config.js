@@ -7,10 +7,10 @@ function resolve(dir) {
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ?
-    '/demo/' :
+    '/build/' :
     '/',
 
-  outputDir: 'demo', // 输出目录，默认dist
+  outputDir: 'build', // 输出目录，默认dist
 
   assetsDir: 'static', // 静态资源文件夹名字
 
