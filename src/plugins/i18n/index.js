@@ -7,14 +7,17 @@ import iviewEn from 'view-design/src/locale/lang/en-US'
 import iviewZh from 'view-design/src/locale/lang/zh-CN'
 
 Vue.use(VueI18n)
+
+// 获取设置的语言
 const storeage = localStorage.getItem('language')
-// 获取浏览器首选语言
+// 获取浏览器的语言
 const navLang = navigator.language
 const localLang = navLang === 'en-US' || navLang === 'zh-CN' ? navLang : false
-// const lang = localLang || 'zh-CN';
+
+// 默认中文
 const lang = storeage || localLang || 'zh-CN'
-console.log(lang)
-store.dispatch('set_language', { lang })
+
+// 配置
 const messages = {
 	'zh-CN': {
 		...zh,
@@ -25,6 +28,8 @@ const messages = {
 		...iviewEn
 	}
 }
+
+store.dispatch('set_language', { lang })
 
 const i18n = new VueI18n({
 	locale: lang,

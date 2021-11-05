@@ -17,6 +17,7 @@ const home = {
 	},
 	actions: {
 		set_language({ commit }, setLanguage) {
+			console.log('home')
 			commit(SET_LANGUAGE, setLanguage)
 		}
 	}
