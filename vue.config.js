@@ -59,7 +59,7 @@ module.exports = {
   // corsUseCredentials: false,
   // webpack 配置，键值对象时会合并配置，为方法时会改写配置
   // https://cli.vuejs.org/guide/webpack.html#simple-configuration
-  configureWebpack: (config) => {
+  configureWebpack: () => {
   },
 
   // webpack 链接 API，用于生成和修改 webapck 配置
@@ -149,7 +149,7 @@ module.exports = {
 
     proxy: 'http://10.167.213.134:8000',
 
-    before: (app) => {
+    before: () => {
     },
   },
   // 构建时开启多进程处理 babel 编译

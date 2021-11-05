@@ -1,9 +1,12 @@
-const nav = [{
-  name: 'detail',
-  babel: 'detail',
-}, {
-  name: 'design',
-  babel: 'design',
-}];
+const nav = [
+	{
+		name: 'detail',
+		babel: 'detail'
+	},
+	{
+		name: 'design',
+		babel: 'design'
+	}
+]
 
-export default nav;
+export default nav

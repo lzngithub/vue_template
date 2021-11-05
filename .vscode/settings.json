@@ -1,7 +1,0 @@
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "vetur.format.defaultFormatter.js": "none",
-  "i18n-ally.localesPaths": "src/plugins/i18n",
-}

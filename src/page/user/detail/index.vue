@@ -1,18 +1,14 @@
 <template>
-  <div id="">
-    detail
-  </div>
+	<div id="">
+		detail
+	</div>
 </template>
 
 <script>
-
 export default {
-  name: 'detail',
-  components: {
-  },
-};
+	name: 'detail',
+	components: {}
+}
 </script>
 
-<style lang='less' scoped>
-
-</style>
+<style lang="less" scoped></style>
